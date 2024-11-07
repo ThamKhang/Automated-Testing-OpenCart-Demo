@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e52495fc-dac2-42e4-9062-977d7df9036e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Automated-Testing-OpenCart-Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Custom/custom_user_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/add_to_wishlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/cart_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/logout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chrome_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firefox_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_cart_checkout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_responsive_design.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_search_functionality.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2oHiaCBLawTA1nFIaqnQDwvrbK0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_add_multiple_products.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_add_product_with_2_quality.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_add_product_with_2_quantity.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_add_to_cart.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_checkout_with_guest_account.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_many_add_product.executor": "Run",
+    "Python tests.Python tests for test_cart_checkout.TestOpenCart.test_to_cart_with_options.executor": "Run",
+    "Python tests.Python tests for test_data_verification.TestProductDataVerification.executor": "Run",
+    "Python tests.Python tests for test_data_verification.test_data_verification.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_success.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_with_invalid_email_and_valid_password.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_with_invalid_email_format.executor": "Run",
+    "Python tests.Python tests for test_login.TestLogin.test_login_with_valid_email_and_invalid_password.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_failure.executor": "Run",
+    "Python tests.Python tests for test_login.test_login_success.executor": "Run",
+    "Python tests.Python tests for test_navigation.TestNavigation.executor": "Run",
+    "Python tests.Python tests for test_navigation.TestNavigation.test_menu_navigation.executor": "Run",
+    "Python tests.Python tests for test_navigation.TestNavigation.test_navigation_top.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_navigation.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_navigation_all_categories.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_navigation_pro.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_navigation_subcategories.executor": "Run",
+    "Python tests.Python tests for test_navigation.test_show_all_desktops.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegister.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegister.test_invalid_firstname.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_email_already_registered.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_invalid_email.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_invalid_firstname.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_invalid_lastname.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_simple_password.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_successful_registration.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_weak_password.executor": "Run",
+    "Python tests.Python tests for test_register.TestRegisterToOpenCart.test_without_agreeing_to_terms.executor": "Run",
+    "Python tests.Python tests for test_responsive_design.test_responsive_design.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.TestSearchFunctionality.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.TestSearchFunctionality.test_correct_search_products.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.TestSearchProducts.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.test_correct_search_products.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.test_search_with_noExistProducts.executor": "Run",
+    "Python tests.Python tests for test_search_functionality.test_search_with_uppercaseAllText.executor": "Run",
+    "Python tests.Python tests in test_cart_checkout.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_navigation.py.executor": "Run",
+    "Python tests.Python tests in test_register.py.executor": "Run",
+    "Python tests.Python tests in test_responsive_design.py.executor": "Run",
+    "Python tests.Python tests in test_search_functionality.py.executor": "Run",
+    "Python.baitap.executor": "Run",
+    "Python.chrome_profile.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.firefox_profile.executor": "Run",
+    "Python.login.executor": "Run",
+    "Python.mail.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ThamKhang/PycharmProjects/Automated-Testing-OpenCart-Demo/test",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThamKhang\PycharmProjects\Automated-Testing-OpenCart-Demo\test" />
+      <recent name="C:\Users\ThamKhang\PycharmProjects\Automated-Testing-OpenCart-Demo\Custom" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ThamKhang\PycharmProjects\Automated-Testing-OpenCart-Demo\test" />
+      <recent name="C:\Users\ThamKhang\PycharmProjects\Automated-Testing-OpenCart-Demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_responsive_design.py">
+    <configuration name="baitap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing-OpenCart-Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/baitap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cart_checkout.TestOpenCart.test_add_to_cart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing-OpenCart-Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart_checkout.TestOpenCart.test_add_to_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cart_checkout.TestOpenCart.test_checkout_with_guest_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing-OpenCart-Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cart_checkout.TestOpenCart.test_checkout_with_guest_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_responsive_design.test_responsive_design" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing-OpenCart-Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_responsive_design.test_responsive_design&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_responsive_design.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automated-Testing-OpenCart-Demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_responsive_design.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_responsive_design.py" />
+        <item itemvalue="Python tests.Python tests for test_responsive_design.test_responsive_design" />
+        <item itemvalue="Python tests.Python tests for test_cart_checkout.TestOpenCart.test_checkout_with_guest_account" />
+        <item itemvalue="Python tests.Python tests for test_cart_checkout.TestOpenCart.test_add_to_cart" />
+        <item itemvalue="Python.baitap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e52495fc-dac2-42e4-9062-977d7df9036e" name="Changes" comment="" />
+      <created>1730532963790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730532963790</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
