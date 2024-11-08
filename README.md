@@ -58,51 +58,51 @@ Dự án này chứa các bài kiểm thử tự động cho website OpenCart, s
 
 - **/test/test_cart_checkout.py**: 
     - `class TestOpenCart`: Kiểm thử chức năng giỏ hàng và thanh toán.
-    - `test_add_to_cart()`: Kiểm tra thêm sản phẩm vào giỏ hàng bình thường.
-    - `test_many_add_product()`: Kiểm tra thêm nhiều sản phẩm vào giỏ hàng.
-    - `test_add_multiple_products()`: Kiểm tra thêm một sản phẩm vào giỏ hàng nhiều lần.
-    - `test_to_cart_with_options()`: Kiểm tra thêm sản phẩm có tùy chọn vào giỏ hàng.
-    - `test_checkout_with_guest_account()`: Kiểm tra thanh toán với tài khoản khách.
+        - `test_add_to_cart()`: Kiểm tra thêm sản phẩm vào giỏ hàng bình thường.
+        - `test_many_add_product()`: Kiểm tra thêm nhiều sản phẩm vào giỏ hàng.
+        - `test_add_multiple_products()`: Kiểm tra thêm một sản phẩm vào giỏ hàng nhiều lần.
+        - `test_to_cart_with_options()`: Kiểm tra thêm sản phẩm có tùy chọn vào giỏ hàng.
+        - `test_checkout_with_guest_account()`: Kiểm tra thanh toán với tài khoản khách.
   
 - **/test/test_login.py**: 
     - `class TestLogin`: Kiểm thử chức năng đăng nhập.
-    - `test_login_success()`: Đăng nhập thành công với thông tin hợp lệ.
-    - `test_login_failure()`: Đăng nhập thất bại với thông tin không hợp lệ.
-    - `test_login_with_blank_fields()`: Đăng nhập với email và mật khẩu trống.
-    - `test_login_with_valid_email_and_invalid_password()`: Đăng nhập với email hợp lệ và mật khẩu không hợp lệ.
-    - `test_login_with_invalid_email_and_valid_password()`: Đăng nhập với email không hợp lệ và mật khẩu hợp lệ.
-    - `test_login_with_invalid_email_format()`: Đăng nhập với định dạng email không hợp lệ.
+        - `test_login_success()`: Đăng nhập thành công với thông tin hợp lệ.
+        - `test_login_failure()`: Đăng nhập thất bại với thông tin không hợp lệ.
+        - `test_login_with_blank_fields()`: Đăng nhập với email và mật khẩu trống.
+        - `test_login_with_valid_email_and_invalid_password()`: Đăng nhập với email hợp lệ và mật khẩu không hợp lệ.
+        - `test_login_with_invalid_email_and_valid_password()`: Đăng nhập với email không hợp lệ và mật khẩu hợp lệ.
+        - `test_login_with_invalid_email_format()`: Đăng nhập với định dạng email không hợp lệ.
   
 - **/test/test_navigation.py**: 
     - `class TestNavigation`: Kiểm thử điều hướng website.
-    - `test_click_desktops_and_mac()`: Kiểm tra điều hướng đến danh mục "Desktops" và chọn "Mac".
-    - `test_show_all_desktops()`: Kiểm tra điều hướng đến danh mục "Desktops" và chọn "Show All Desktops".
-    - `test_menu_navigation()`: Kiểm tra điều hướng qua các mục menu có menu con.
-    - `test_simple_menu_items()`: Kiểm tra điều hướng qua các mục menu không có menu con.
+        - `test_click_desktops_and_mac()`: Kiểm tra điều hướng đến danh mục "Desktops" và chọn "Mac".
+        - `test_show_all_desktops()`: Kiểm tra điều hướng đến danh mục "Desktops" và chọn "Show All Desktops".
+        - `test_menu_navigation()`: Kiểm tra điều hướng qua các mục menu có menu con.
+        - `test_simple_menu_items()`: Kiểm tra điều hướng qua các mục menu không có menu con.
   
 - **/test/test_register.py**: 
     - `class TestRegister`: Kiểm thử chức năng đăng ký.
-    - `test_invalid_firstname()`: Đăng ký với tên không hợp lệ.
-    - `test_invalid_lastname()`: Đăng ký với họ không hợp lệ.
-    - `test_invalid_email()`: Đăng ký với email không hợp lệ.
-    - `test_email_already_registered()`: Đăng ký với email đã tồn tại.
-    - `test_weak_password()`: Đăng ký với mật khẩu yếu.
-    - `test_successful_registration()`: Đăng ký thành công.
+        - `test_invalid_firstname()`: Đăng ký với tên không hợp lệ.
+        - `test_invalid_lastname()`: Đăng ký với họ không hợp lệ.
+        - `test_invalid_email()`: Đăng ký với email không hợp lệ.
+        - `test_email_already_registered()`: Đăng ký với email đã tồn tại.
+        - `test_weak_password()`: Đăng ký với mật khẩu yếu.
+        - `test_successful_registration()`: Đăng ký thành công.
   
 - **/test/test_responsive_design.py**: Kiểm thử giao diện responsive trên các thiết bị khác nhau (desktop, laptop, tablet, mobile).
     - `test_responsive_design(driver, device, size)`: Kiểm tra hiển thị của hộp tìm kiếm, dropdown 'My Account', nội dung chính, giỏ hàng, ... trên các kích thước màn hình khác nhau.
   
 - **/test/test_search_functionality.py**:
     - `class TestSearchFunctionality`: Kiểm thử chức năng tìm kiếm.
-    - `test_correct_search_products()`: Tìm kiếm với từ khóa hợp lệ.
-    - `test_search_with_no_exist_products()`: Tìm kiếm với từ khóa không tồn tại.
-    - `test_search_with_uppercase_all_text()`: Tìm kiếm với từ khóa viết hoa.
-    - `test_search_with_lowercase_all_text()`: Tìm kiếm với từ khóa viết thường.
-    - `test_search_special_characters()`: Tìm kiếm với ký tự đặc biệt.
-    - `test_search_with_whitespace_surrounded()`: Tìm kiếm với từ khóa có khoảng trắng thừa.
-    - `test_search_empty_characters()`: Tìm kiếm với chuỗi rỗng.
-    - `test_search_with_special_character_in_text()`: Tìm kiếm với ký tự đặc biệt trong tên sản phẩm.
-    - `test_search_with_long_character_in_text()`: Tìm kiếm với từ khóa dài bất thường.
+        - `test_correct_search_products()`: Tìm kiếm với từ khóa hợp lệ.
+        - `test_search_with_no_exist_products()`: Tìm kiếm với từ khóa không tồn tại.
+        - `test_search_with_uppercase_all_text()`: Tìm kiếm với từ khóa viết hoa.
+        - `test_search_with_lowercase_all_text()`: Tìm kiếm với từ khóa viết thường.
+        - `test_search_special_characters()`: Tìm kiếm với ký tự đặc biệt.
+        - `test_search_with_whitespace_surrounded()`: Tìm kiếm với từ khóa có khoảng trắng thừa.
+        - `test_search_empty_characters()`: Tìm kiếm với chuỗi rỗng.
+        - `test_search_with_special_character_in_text()`: Tìm kiếm với ký tự đặc biệt trong tên sản phẩm.
+        - `test_search_with_long_character_in_text()`: Tìm kiếm với từ khóa dài bất thường.
 
 ## Yêu cầu
 
