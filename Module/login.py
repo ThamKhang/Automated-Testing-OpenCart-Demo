@@ -11,7 +11,7 @@ from config import profile_path
 
 def login_to_opencart(email_address, password):
     driver = get_driver_with_custom_profile(profile_path)
-    driver.get("https://demo.opencart.com/")
+    driver.get("http://localhost/opencart/upload/")
 
     try:
         # Kiểm tra và đăng xuất nếu người dùng đã đăng nhập

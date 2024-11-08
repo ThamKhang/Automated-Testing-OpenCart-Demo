@@ -13,7 +13,7 @@ class TestSearchFunctionality:
     def driver(self):
         """Thiết lập driver cho tất cả các bài kiểm thử"""
         driver = login_to_opencart(VALID_EMAIL, VALID_PASSWORD)
-        driver.get("https://demo.opencart.com/")
+        driver.get("http://localhost/opencart/upload/")
         yield driver
         driver.quit()
 

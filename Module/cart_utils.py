@@ -8,7 +8,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 from Module.search import search_products
 
 def clear_cart(driver):
-    driver.get("https://demo.opencart.com/en-gb?route=checkout/cart")
+    driver.get("http://localhost/opencart/upload/index.php?route=checkout/cart")
     time.sleep(5)  # Wait for the cart page to load
 
     empty_cart_message = driver.find_element(By.CSS_SELECTOR, "#content p").text

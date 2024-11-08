@@ -22,7 +22,7 @@ class TestOpenCart:
     def driver(self):
         """Thiết lập driver cho tất cả các bài kiểm thử"""
         driver = login_to_opencart(VALID_EMAIL, VALID_PASSWORD)
-        driver.get("https://demo.opencart.com/")
+        driver.get("http://localhost/opencart/upload/")
         yield driver
         driver.quit()
 
@@ -47,7 +47,7 @@ class TestOpenCart:
         time.sleep(4)  # Wait for the add to cart process
 
         # Navigate to the shopping cart page
-        self.driver.get("https://demo.opencart.com/en-gb?route=checkout/cart")
+        self.driver.get("http://localhost/opencart/upload/index.php?route=checkout/cart")
 
         # Wait for the cart items to be visible
         cart_items = WebDriverWait(self.driver, 10).until(
@@ -88,7 +88,7 @@ class TestOpenCart:
                 time.sleep(3)  # Wait for the add to cart process to complete
 
         # Navigate to the shopping cart page
-        self.driver.get("https://demo.opencart.com/en-gb?route=checkout/cart")
+        self.driver.get("http://localhost/opencart/upload/index.php?route=checkout/cart")
 
         # Wait for the cart items to be visible
         cart_items = WebDriverWait(self.driver, 10).until(
@@ -111,10 +111,10 @@ class TestOpenCart:
                 f"Expected {expected_quantity} of {product}, found {product_quantities[product]}."
 
         print("All specified products were successfully added to the cart with the correct quantities.")
-    #
+
     def test_to_cart_with_options(self):
         # Điều hướng đến trang sản phẩm "Apple Cinema 30"
-        self.driver.get("https://demo.opencart.com/index.php?route=product/product&product_id=42")
+        self.driver.get("http://localhost/opencart/upload/index.php?route=product/product&language=en-gb&product_id=42")
 
         # Chọn tùy chọn 'Radio' (Large)
         self.driver.find_element(By.ID, "input-option-value-7").click()
@@ -185,7 +185,7 @@ class TestOpenCart:
                 time.sleep(3)  # Wait for the add to cart process to complete
 
         # Navigate to the shopping cart page
-        self.driver.get("https://demo.opencart.com/en-gb?route=checkout/cart")
+        self.driver.get("http://localhost/opencart/upload/index.php?route=checkout/cart")
 
         # Thêm sản phẩm vào giỏ hàng
         checkout_button = self.driver.find_element(By.LINK_TEXT, "Checkout")

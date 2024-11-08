@@ -1,3 +1,4 @@
+import time
 import unittest
 import uuid
 
@@ -38,3 +39,4 @@ class TestRegister(unittest.TestCase):
         """Test đăng ký thành công với thông tin hợp lệ"""
         result = register_to_opencart("Jane", "Doe", f"{uuid.uuid4().hex}@gmail.com", "ComplexPass123!")
         self.assertIsNotNone(result)  # Kết quả không được là None
+        # Có thể kiểm tra thêm điều kiện khác tùy thuộc vào yêu cầu của bạn

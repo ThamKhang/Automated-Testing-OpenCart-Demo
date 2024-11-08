@@ -11,7 +11,7 @@ from config import profile_path
 @pytest.fixture(scope="class")
 def driver():
     driver = get_driver_with_custom_profile(profile_path)
-    driver.get('https://demo.opencart.com/')
+    driver.get('http://localhost/opencart/upload/')
     yield driver
     driver.quit()
 
@@ -23,11 +23,12 @@ class TestNavigation:
 
     def test_click_desktops_and_mac(self):
         # Click vào "Desktops" trong navbar
-        desktops_menu = self.driver.find_element(By.CSS_SELECTOR, 'a.nav-link.dropdown-toggle[href*="catalog/desktops"]')
+        time.sleep(3)
+        desktops_menu = self.driver.find_element(By.XPATH, '//*[@id="narbar-menu"]/ul/li[1]')
         desktops_menu.click()
 
         # Click vào "Mac" trong mục con của "Desktops"
-        mac_subcategory = self.driver.find_element(By.CSS_SELECTOR, 'a.nav-link[href*="catalog/desktops/mac"]')
+        mac_subcategory = self.driver.find_element(By.XPATH, '//*[@id="narbar-menu"]/ul/li[1]/div/div/ul/li[2]')
         mac_subcategory.click()
 
         # Xác nhận tiêu đề trang bao gồm "Mac"
@@ -35,8 +36,9 @@ class TestNavigation:
 
     def test_show_all_desktops(self):
         # Click vào "Desktops" và sau đó "Show All Desktops"
-        self.driver.find_element(By.CSS_SELECTOR, 'a.nav-link.dropdown-toggle[href*="catalog/desktops"]').click()
-        show_all_link = self.driver.find_element(By.CSS_SELECTOR, 'a.see-all[href*="catalog/desktops"]')
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, '//*[@id="narbar-menu"]/ul/li[1]').click()
+        show_all_link = self.driver.find_element(By.XPATH, '//*[@id="narbar-menu"]/ul/li[1]/div/a')
         show_all_link.click()
 
         # Kiểm tra tiêu đề trang bao gồm "Desktops"

@@ -1,3 +1,5 @@
+import time
+
 from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,7 +9,7 @@ from config import profile_path
 
 def register_to_opencart(first_name, last_name, email, password):
     driver = get_driver_with_custom_profile(profile_path)
-    driver.get("https://demo.opencart.com/")
+    driver.get("http://localhost/opencart/upload/")
 
     try:
         # Kiểm tra và đăng xuất nếu người dùng đã đăng nhập
@@ -31,6 +33,7 @@ def register_to_opencart(first_name, last_name, email, password):
         WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-password"))).send_keys(password)
 
         # Đồng ý với điều khoản
+        time.sleep(3)
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='agree']"))).click()
 
         # Gửi biểu mẫu đăng ký
